@@ -52,15 +52,10 @@ export class AboutPage extends LitElement {
                     <span class="spacer bg-slate-200 mr-12"></span>
                     <article class="prose lg:prose-xl">
                         <h1>Get to know me a lil'</h1>
-                        <p>
-                            For years parents have espoused the health benefits of eating garlic bread with cheese to their
-                            children, with the food earning such an iconic status in our culture that kids will often dress
-                            up as warm, cheesy loaf for Halloween.
-                        </p>
-                        <p>
-                            But a recent study shows that the celebrated appetizer may be linked to a series of rabies cases
-                            springing up around the country.
-                        </p>
+                            <p>Hey there, It's me, in the photo. I've been on an amazing adventure in the world of application development for over a decade now! Agile and SCRUM are my trusty tools, helping me achieve a solid track record of successful software deliveries.</p>
+                            <p>Working with a wide variety of technologies has been super fun, allowing me to tackle all sorts of software challenges – from the usual suspects to some more unusual ones! Whether it's the everyday stuff or something new, I've got you covered.</p>
+                            <p>I've had the pleasure of collaborating with teams of all sizes, and you know what? It's taught me a lot about the magic of effective communication and quick issue resolution!</p>
+                            <p>Being a tech enthusiast, I get a real kick out of finding creative solutions to complex problems. So, if you're curious about my tech journey or need a helping hand with software development, don't hesitate to get in touch. Let's connect and create something awesome together! 🚀✨</p>
                         </article>
                 </div>
                 <footer-component></footer-component>
