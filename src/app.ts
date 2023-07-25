@@ -1,5 +1,5 @@
 // app.js
-import { LitElement, html } from 'lit';
+import { LitElement, html, css } from 'lit';
 import { Router } from '@vaadin/router';
 
 import './pages/home-page';
