@@ -9,10 +9,18 @@ export class HeaderComponent extends LitElement {
 
   render() {
     return html`
-        <header class="sticky top-0 z-10 w-full text-gray-700 bg-white border-t border-gray-100 shadow-sm body-font background-white">
+        <header class="sticky top-0 z-10 w-full dark:prose-invert text-gray-700 bg-white border-t border-gray-100 shadow-sm body-font background-white">
             <div class="container flex flex-col items-start justify-between p-6 mx-auto md:flex-row">
-                <a class="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
-                    Thoughtpalette
+                <a class="flex items-center mb-4 font-medium font-mono text-gray-900 title-font md:mb-0">
+                    Thought
+                    <span class="text-[#007ebd]">p</span>
+                    <span class="text-[#f8860d]">a</span>
+                    <span class="text-[#36d399]">l</span>
+                    <span class="text-[#6e0b75]">e</span>
+                    <span class="text-[#f87272]">t</span>
+                    <span class="text-[#f87272]">t</span>
+                    <span class="text-[#6e0b75]">e</span>
+                    .com
                 </a>
                 <nav class="flex flex-wrap items-center justify-center pl-6 ml-6 text-base border-l border-gray-200 md:mr-auto">
                     <a href="/" class="mr-5 font-medium hover:text-gray-900">Home</a>
