@@ -52,10 +52,10 @@ export class HeroComponent extends LitElement {
         return html`
         <div class="flex min-h-[400px] h-full max-h-96 items-center justify-center bg-white font-bold text-black">
             <div class="text-center space-y-12">
-                <div class="text-center text-5xl font-bold">
+                <div class="prose text-center text-5xl font-bold">
                     Hi, I'm Chris! A Web Engineer.
                 </div>
-                <div class="text-center text-3xl font-bold">
+                <div class="prose text-center text-3xl font-bold">
                 I'm also an experienced
                     <div class="relative inline-grid grid-cols-1 grid-rows-1 gap-12 overflow-hidden">
                         <span class="animate-word col-span-full row-span-full text-[#36d399] text-left">UX/UI Designer</span>
