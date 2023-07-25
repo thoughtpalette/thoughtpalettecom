@@ -34,7 +34,7 @@ export class BrandsComponent extends LitElement {
 
     render() {
         return html`
-        <div class="flex flex-col min-h-[400px] h-full dark:prose-invert text-center max-h-96 bg-white font-bold text-black">
+        <div class="flex flex-col min-h-[350px] h-full dark:prose-invert text-center max-h-96 bg-white font-bold text-black">
             <p class="mb-4">
                 <span class="text-slate-600">Designed</span> 
                 <span class="text-slate-300">||</span> 

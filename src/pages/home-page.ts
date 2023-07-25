@@ -7,7 +7,7 @@ import config from '../../twind.config'
 import '../components/header'
 import '../components/hero'
 import '../components/brands'
-import '../components/posts'
+import '../components/footer'
 
 @customElement('home-page')
 @install(config)
@@ -17,7 +17,7 @@ export class HomePage extends LitElement {
         <header-component></header-component>
         <hero-component></hero-component>
         <brands-component></brands-component>
-        <posts-component></posts-component>
+        <footer-component></footer-component>
     `
   }
 }
