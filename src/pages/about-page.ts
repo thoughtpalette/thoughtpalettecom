@@ -10,10 +10,10 @@ import '../components/footer'
 // Images
 import selfieImageUrl from '../assets/chris-self.png'
 
-
 @customElement('about-page')
 @install(config)
 export class AboutPage extends LitElement {
+
     static styles = css`
         .content {
             display: flex;
@@ -55,7 +55,7 @@ export class AboutPage extends LitElement {
                             <p>Hey there, It's me, in the photo. I've been on an amazing adventure in the world of application development for over a decade now! Agile and SCRUM are my trusty tools, helping me achieve a solid track record of successful software deliveries.</p>
                             <p>Working with a wide variety of technologies has been super fun, allowing me to tackle all sorts of software challenges – from the usual suspects to some more unusual ones! Whether it's the everyday stuff or something new, I've got you covered.</p>
                             <p>I've had the pleasure of collaborating with teams of all sizes, and you know what? It's taught me a lot about the magic of effective communication and quick issue resolution!</p>
-                            <p>Being a tech enthusiast, I get a real kick out of finding creative solutions to complex problems. So, if you're curious about my tech journey or need a helping hand with software development, don't hesitate to get in touch. Let's connect and create something awesome together! 🚀✨</p>
+                            <p>Being a tech enthusiast, I get a real kick out of finding creative solutions to complex problems. So, if you're curious about my tech journey or need a helping hand with software development, don't hesitate to get in touch. Let's connect and create something awesome together!</p>
                         </article>
                 </div>
                 <footer-component></footer-component>
