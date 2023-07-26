@@ -66,7 +66,7 @@ export class HeaderComponent extends LitElement {
         return html`
             <header class="sticky top-0 z-10 w-full dark:prose-invert text-gray-700 bg-white border-t border-gray-100 shadow-sm body-font background-white">
                 <div class="container flex flex-col items-start justify-between p-6 mx-auto md:flex-row">
-                    <a class="flex items-center mb-4 font-medium font-mono text-gray-900 title-font md:mb-0">
+                    <a href="/" class="flex items-center mb-4 font-medium font-mono text-gray-900 title-font md:mb-0">
                         Thought
                         <span class="text-[#007ebd]">p</span>
                         <span class="text-[#f8860d]">a</span>
