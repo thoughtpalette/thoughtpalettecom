@@ -88,10 +88,14 @@ export class HeaderComponent extends LitElement {
                                 <span class=${classMap(this.aboutClasses)} style=${styleMap(this.styles)}></span>
                             </a>
                         <a href="/contact"
-                            class="font-medium hover:text-gray-900">
+                            class="mr-5 font-medium hover:text-gray-900">
                                 Contact
                                 <span class=${classMap(this.contactClasses)} style=${styleMap(this.styles)}></span>
                             </a>
+                            <a href="http://blog.thoughtpalette.com"
+                            class="font-medium hover:text-gray-900 border-l border-gray-200 pl-6">
+                                Blog
+                            </a>                            
                     </nav>
                     <div class="flex items-center h-full">
                         <a href="https://www.linkedin.com/in/chris-marshall-78591710" target="_blank" class="mr-5 font-medium hover:text-[#${[...themeColors][1]}]">
